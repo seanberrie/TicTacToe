@@ -1,0 +1,178 @@
+body {
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.header {
+    
+    margin: 0em 10em;
+    border: white 2px solid;
+}
+header {
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-top: 30px;
+}
+h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p {
+    text-transform: uppercase;
+    font-size: .9em;
+}
+/* =============================================
+Grid box
+===============================================*/
+.gridcon {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.grid {
+
+    border: Black 3px solid;
+    display: grid;
+    grid-template-areas: 
+        "one two three"
+        "four five six"
+        "seven eight nine";
+    grid-gap: 0px 0px;
+}
+.grid:hover {
+    border: white 3px solid;
+}
+
+/* =============================================
+pieces to grid
+===============================================*/
+div.one {
+    border: Black 3px solid;
+    grid-area: one;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: red;
+}
+.one:hover {
+    border: white 3px solid;
+}
+div.two {
+    border: Black 3px solid;
+    grid-area: two;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: blue;
+}
+.two:hover {
+    border: white 3px solid;
+}
+div.three {
+    border: Black 3px solid;
+    grid-area: three;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: red;
+}
+.three:hover {
+    border: white 3px solid;
+}
+div.four {
+    border: Black 3px solid;
+    grid-area: four;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: blue;
+}
+.four:hover {
+    border: white 3px solid;
+}
+div.five {
+    border: Black 3px solid;
+    grid-area: five;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: red;
+}
+.five:hover {
+    border: white 3px solid;
+}
+div.six {
+    border: Black 3px solid;
+    grid-area: six;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: blue;
+}
+.six:hover {
+    border: white 3px solid;
+}
+div.seven {
+    border: Black 3px solid;
+    grid-area: seven;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: red;
+}
+.seven:hover {
+    border: white 3px solid;
+}
+div.eight {
+    border: Black 3px solid;
+    grid-area: eight;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: blue;
+}
+.eight:hover {
+    border: white 3px solid;
+}
+div.nine {
+    border: Black 3px solid;
+    grid-area: nine;
+    height: 9.375em;
+    width: 9.375em;
+    background-color: red;
+}
+.nine:hover {
+    border: white 3px solid;
+}
+
+
+/* =============================================
+button
+===============================================*/
+input {
+    font-family: 'Bungee Shade', cursive;
+    text-transform: uppercase;
+    height: 3em;
+    width: 12em;
+    margin: 2em;
+    color: white;
+    background-color: black;
+    border: white 3px solid;
+}
+input:hover {
+    color: black;
+    background-color: white;
+    border: black 3px solid;
+}
+
+/* =============================================
+images
+===============================================*/
+
+img.x {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
+img.o {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
